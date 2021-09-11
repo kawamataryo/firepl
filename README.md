@@ -10,7 +10,7 @@ An tiny wrapper of the Node REPL to make firestore easier to use.
 ## features ✨
 
 - custom contexts can be used to make Firestore more easily.
-- top level async/await support.
+- top level async/await support. powerd by [node-repl-wait](https://www.npmjs.com/package/node-repl-await).
 - syntax highlighting support. powered by [pretty-repl](https://www.npmjs.com/package/pretty-repl).
 
 ## Usage 🚀
