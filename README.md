@@ -17,9 +17,11 @@ An tiny wrapper of the Node REPL to make firestore easier to use.
 In order to use firepl, you need to get a key file for your firebase service account.
 
 **To generate a private key file for your service account:**
-- In the Firebase console, open [Settings > Service Accounts](https://console.firebase.google.com/project/_/settings/serviceaccounts/adminsdk).
-- Click Generate New Private Key, then confirm by clicking Generate Key.
-- Securely store the JSON file containing the key.
+1. In the Firebase console, open [Settings > Service Accounts](https://console.firebase.google.com/project/_/settings/serviceaccounts/adminsdk).
+2. Click Generate New Private Key, then confirm by clicking Generate Key.
+3. Securely store the JSON file containing the key.
+
+After downloading the service account key file, execute the following command.
 
 ```bash
 # If you use npx command
