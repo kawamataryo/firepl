@@ -5,10 +5,8 @@
 <a href="https://www.npmjs.com/package/firepl"><img src="https://img.shields.io/npm/l/firepl.svg" alt="License"></a>
 <a href="https://github.com/kawamataryo/firepl" target="__blank"><img alt="GitHub stars" src="https://img.shields.io/github/stars/kawamataryo/firepl?style=social"></a>
 
-An tiny wrapper of the Node REPL to make firestore easier to use.
-
-![](https://i.gyazo.com/70c4f91c48c9cc0d28c43f54eacd5580.gif)
-
+![ezgif com-gif-maker (20)](https://user-images.githubusercontent.com/11070996/132949363-d2f477a1-6601-46f5-8d0b-203396c22172.gif)
+ 
 ## features ✨
 
 - custom contexts can be used to make Firestore more easily.
