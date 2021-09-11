@@ -8,6 +8,6 @@ import { getArgs } from "./lib/args";
 const args = getArgs();
 const firepl = new Firepl(args.credentials);
 
-console.log("Welcome to Firepl.\nexit using Ctrl+D or type .exit\n");
+console.log("Welcome to Firepl.\nexit using Ctrl+Z or Ctrl+C or type .exit\n");
 const customRepl = repl.start({ prompt: "🔥 > ", eval: asyncEval });
 customRepl.context.firepl = firepl;
