@@ -7,8 +7,19 @@
 
 An tiny wrapper of the Node REPL to make firestore easier to use.
 
+## features ✨
 
-## Usage
+- custom contexts can be used to make Firestore more easily.
+- top level async/await support.
+- syntax highlighting support. powered by [pretty-repl](https://www.npmjs.com/package/pretty-repl).
+
+## Usage 🚀
+In order to use firepl, you need to get a key file for your firebase service account.
+
+**To generate a private key file for your service account:**
+- In the Firebase console, open [Settings > Service Accounts](https://console.firebase.google.com/project/_/settings/serviceaccounts/adminsdk).
+- Click Generate New Private Key, then confirm by clicking Generate Key.
+- Securely store the JSON file containing the key.
 
 ```bash
 # If you use npx command
@@ -19,7 +30,7 @@ npm i -g firepl
 firepl -c YOUR_SERVICE_ACCOUNT_FILE_PATH
 ```
 
-## Custom context
+## Custom context 🎮
 Firepl allows you to use a custom context called `firepl` inside REPL. `firepl` makes firestore more convenient.
 
 |name|description|
