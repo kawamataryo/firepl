@@ -7,6 +7,8 @@
 
 An tiny wrapper of the Node REPL to make firestore easier to use.
 
+![](https://i.gyazo.com/70c4f91c48c9cc0d28c43f54eacd5580.gif)
+
 ## features ✨
 
 - custom contexts can be used to make Firestore more easily.
