@@ -1,5 +1,40 @@
 {
   "extends": [
-    "config:base"
+    "config:base",
+    ":timezone(Asia/Tokyo)"
+  ],
+  "labels": ["dependencies", "renovate"],
+  "dependencyDashboard": true,
+  "pin": {
+    "automerge": true
+  },
+  "prConcurrentLimit": 3,
+  "js": {
+    "prConcurrentLimit": 3,
+    "labels": ["dependencies", "renovate", "javascript"]
+  },
+  "schedule": ["after 9am and before 5pm", "every weekday"],
+  "packageRules": [
+    {
+      "packagePatterns": ["^@types/"],
+      "automerge": true,
+      "major": {
+        "automerge": false
+      }
+    },
+    {
+      "groupName": "jest",
+      "automerge": true,
+      "sourceUrlPrefixes": [
+        "https://github.com/facebook/jest",
+        "https://github.com/kulshekhar/ts-jest"
+      ]
+    },
+    {
+      "groupName": "linters",
+      "automerge": true,
+      "extends": ["packages:linters"],
+      "packagePatterns": ["^@typescript-eslint/"]
+    }
   ]
 }
