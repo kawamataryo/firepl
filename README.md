@@ -10,11 +10,11 @@
 ## features ✨
 
 - custom contexts can be used to make Firestore more easily.
-- top level async/await support. powerd by [node-repl-wait](https://www.npmjs.com/package/node-repl-await).
+- Top-Level Await support. powered by [node-repl-wait](https://www.npmjs.com/package/node-repl-await).
 - syntax highlighting support. powered by [pretty-repl](https://www.npmjs.com/package/pretty-repl).
 
 ## usage 🚀
-In order to use firepl, you need to get a key file for your firebase service account.
+To use firepl, you need to get a key file for your firebase service account.
 
 **To generate a private key file for your service account:**
 1. In the Firebase console, open [Settings > Service Accounts](https://console.firebase.google.com/project/_/settings/serviceaccounts/adminsdk).
