@@ -5,7 +5,7 @@
 <a href="https://www.npmjs.com/package/firepl"><img src="https://img.shields.io/npm/l/firepl.svg" alt="License"></a>
 <a href="https://github.com/kawamataryo/firepl" target="__blank"><img alt="GitHub stars" src="https://img.shields.io/github/stars/kawamataryo/firepl?style=social"></a>
 
-![ezgif com-gif-maker (21)](https://user-images.githubusercontent.com/11070996/132985604-a6e76112-a4b9-4c15-b58a-193a0bd2dc8b.gif)
+<img src="https://user-images.githubusercontent.com/11070996/132985604-a6e76112-a4b9-4c15-b58a-193a0bd2dc8b.gif" width="700"> 
  
 ## features ✨
 
