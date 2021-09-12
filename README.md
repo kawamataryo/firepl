@@ -33,7 +33,7 @@ firepl -c YOUR_SERVICE_ACCOUNT_FILE_PATH
 ```
 
 ## custom context 🎮
-Firepl allows you to use a custom context called `firepl` inside REPL. `firepl` makes firestore more convenient.
+Firepl allows you to use a custom context called `firepl` inside REPL. 
 
 |name|description|
 |---|---|
