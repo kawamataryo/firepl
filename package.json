@@ -26,13 +26,13 @@
     "firebase-admin": "9.11.1",
     "node-repl-await": "0.1.2",
     "pretty-repl": "3.1.1",
-    "yargs": "17.1.1"
+    "yargs": "17.7.2"
   },
   "devDependencies": {
     "@commitlint/cli": "13.1.0",
     "@commitlint/config-conventional": "13.1.0",
     "@types/node": "16.9.1",
-    "@types/yargs": "17.0.2",
+    "@types/yargs": "17.0.32",
     "@typescript-eslint/eslint-plugin": "4.31.1",
     "@typescript-eslint/parser": "4.31.1",
     "eslint": "7.32.0",
